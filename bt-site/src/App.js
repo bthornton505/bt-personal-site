@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import Header from './components/Header'
+import Navbar from './components/Navbar'
+import Landing from './components/Landing'
 import Footer from './components/Footer'
 
 function App() {
   return (
     <div>
-      <Header />
-      <h1>Hi, I'm Brenden Thornton</h1>
+      <Navbar />
+      <Landing />
       <Footer />
     </div>
   );
