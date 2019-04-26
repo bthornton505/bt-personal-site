@@ -5,7 +5,7 @@ const Footer = () => {
 
   return(
     <section id="contact">
-      <Container>
+      <Container fluid="true">
         <Row>
           <Col className="bt-contact">
             <h4>Contact</h4>
