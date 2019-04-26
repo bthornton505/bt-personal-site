@@ -4,7 +4,7 @@ import '../Site.css'
 const Header = () => {
 
   return(
-    <header>
+    <section id="navbar">
       <ul id="bt-navbar">
         <li className="navbar-nav">
           <a className="navbar-links" href="/about">About</a>
@@ -19,7 +19,7 @@ const Header = () => {
           <a className="navbar-links" href="/contact">Contact</a>
         </li>
       </ul>
-    </header>
+    </section>
   )
 }
 
