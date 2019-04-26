@@ -30,9 +30,9 @@ a:visited {
 
 /* FOOTER STYLING */
 
-#bt-footer {
-  display: flex;
-  justify-content: center;
+#contact {
+  /* display: flex; */
+  /* justify-content: center; */
   margin: 0;
   padding: 5px;
   border-top-style: solid;
@@ -40,8 +40,23 @@ a:visited {
   /* background-color: yellow; */
 }
 
+.bt-contact {
+  display: flex;
+  justify-content: left;
+}
+
+.bt-location {
+  display: flex;
+  justify-content: center;
+}
+
+.bt-social-links {
+  display: flex;
+  justify-content: right;
+}
+
 /* LANDING PAGE STYLING */
 
 #bt-landing {
-  
+
 }
