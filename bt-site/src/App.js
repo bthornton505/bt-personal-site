@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import About from './components/About'
+import Projects from './components/Projects'
 import Footer from './components/Footer'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Landing />
       <About />
+      <Projects />
       <Footer />
     </div>
   );
