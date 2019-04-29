@@ -9,6 +9,8 @@ const Landing = () => {
       </div>
       <div>
         <h1>Brenden Thornton</h1>
+      </div>
+      <div>
         <h2>Full Stack Engineer</h2>
       </div>
     </section>
