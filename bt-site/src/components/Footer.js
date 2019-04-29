@@ -7,14 +7,14 @@ const Footer = () => {
     <section id="contact">
       <Container fluid="true">
         <Row>
-          <Col className="bt-contact">
+          <Col xs={6} md={4}>
             <h4>Contact</h4>
           </Col>
-          <Col className="bt-location">
+          <Col xs={6} md={4}>
             <h4>Location</h4>
             <p>Denver, CO</p>
           </Col>
-          <Col className="bt-social-links">
+          <Col xs={6} md={4}>
             <h4>social media icons</h4>
           </Col>
         </Row>
