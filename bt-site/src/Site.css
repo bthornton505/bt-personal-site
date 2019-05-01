@@ -56,6 +56,14 @@ a:visited {
   text-align: center;
 }
 
+/* ABOUT STYLING */
+
+#about-container {
+  display: flex-inline;
+  margin: 0px;
+  padding: 30px;
+}
+
 /* FOOTER STYLING */
 
 #contact {
