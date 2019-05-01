@@ -5,8 +5,8 @@
   list-style-type: none;
   margin: 0;
   padding: 5px;
-  border-bottom-style: solid;
-  border-width: 1px;
+  /* border-bottom-style: solid; */
+  /* border-width: 1px; */
   /* background-color: yellow; */
 }
 
@@ -28,6 +28,34 @@ a:visited {
   color: none;
 }
 
+/* LANDING PAGE STYLING */
+
+#main-header {
+  height: 135px;
+  width: auto;
+  padding: 1px;
+}
+
+.main-title {
+  font-family: "Hiragino Sans GB";
+  font-size: 65px;
+  /* color: #333333; */
+  text-align: center;
+}
+
+#job-header {
+  /* margin: 80px; */
+  width: auto;
+  padding: 1px;
+}
+
+.job-title {
+  font-family: "Hiragino Sans GB";
+  font-size: 40px;
+  /* color: #333333; */
+  text-align: center;
+}
+
 /* FOOTER STYLING */
 
 #contact {
@@ -42,21 +70,15 @@ a:visited {
 
 .bt-contact {
   display: flex;
-  justify-content: left;
+  text-align: left;
 }
 
 .bt-location {
   display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .bt-social-links {
   display: flex;
-  justify-content: right;
-}
-
-/* LANDING PAGE STYLING */
-
-#bt-landing {
-
+  text-align: right;
 }
