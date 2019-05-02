@@ -31,26 +31,27 @@ a:visited {
 /* LANDING PAGE STYLING */
 
 #landing-picture {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .landing-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 #main-header {
-  height: 135px;
-  width: auto;
-  padding: 1px;
+  /* height: 250px; */
+  padding: 25px;
+  display: flex-inline;
+  text-align: center;
+  font-family: "Hiragino Sans GB";
 }
 
 .main-title {
-  font-family: "Hiragino Sans GB";
+  /* font-family: "Hiragino Sans GB"; */
   font-size: 65px;
   /* color: #333333; */
-  text-align: center;
 }
 
 #job-header {
@@ -60,17 +61,16 @@ a:visited {
 }
 
 .job-title {
-  font-family: "Hiragino Sans GB";
+  /* font-family: "Hiragino Sans GB"; */
   font-size: 40px;
   /* color: #333333; */
-  text-align: center;
 }
 
 /* ABOUT STYLING */
 
 #about-container {
   display: flex-inline;
-  margin: 0px;
+  margin: 20px;
   padding: 85px;
 }
 
