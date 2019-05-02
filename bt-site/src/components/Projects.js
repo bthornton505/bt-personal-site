@@ -7,7 +7,7 @@ const Projects = () => {
 
   return(
     <section id="projects">
-      <Container>
+      <Container id="projects-container">
         <h2>Projects</h2>
         <h3>Check out some of my work!</h3>
 
