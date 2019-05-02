@@ -41,37 +41,29 @@ a:visited {
 }
 
 #main-header {
-  /* height: 250px; */
-  padding: 25px;
+  /* height: auto; */
+  padding: 5px;
   display: flex-inline;
   text-align: center;
   font-family: "Hiragino Sans GB";
 }
 
-.main-title {
-  /* font-family: "Hiragino Sans GB"; */
-  font-size: 65px;
-  /* color: #333333; */
-}
-
-#job-header {
-  /* margin: 80px; */
-  width: auto;
-  padding: 1px;
-}
-
 .job-title {
-  /* font-family: "Hiragino Sans GB"; */
-  font-size: 40px;
-  /* color: #333333; */
+  font-size: 48px;
 }
+
+/* .main-title {
+  font-family: "Hiragino Sans GB";
+  font-size: 65px;
+  color: #333333;
+} */
 
 /* ABOUT STYLING */
 
 #about-container {
   display: flex-inline;
-  margin: 20px;
-  padding: 85px;
+  margin: 25px;
+  padding: 60px;
 }
 
 /* FOOTER STYLING */
