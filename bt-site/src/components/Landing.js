@@ -8,9 +8,6 @@ const Landing = () => {
       <div id="landing-picture">
         <img className="landing-image" src={Mountains} alt="mountains"></img>
       </div>
-      <div id="main-header">
-        <p className="job-title">Full Stack Engineer</p>
-      </div>
     </section>
   )
 }
