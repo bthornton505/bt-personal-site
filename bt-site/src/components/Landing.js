@@ -5,7 +5,7 @@ const Landing = () => {
   return(
     <section id="home">
       <div id="landing-picture">
-        <img src="https://www.outtherecolorado.com/wp-content/uploads/2017/07/Denver-OutThere-Colorado.jpg" alt="denver"></img>
+        <img className="landing-image" src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=359&w=630" alt="denver"></img>
       </div>
       <div id="main-header">
         <h1 className="main-title">Brenden Thornton</h1>
