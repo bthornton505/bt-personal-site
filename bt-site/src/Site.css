@@ -16,6 +16,7 @@
 
 .navbar-links {
   text-decoration: none;
+  font-family: "Hiragino Sans GB";
   font-size: 20px;
   color: black;
 }
@@ -41,29 +42,57 @@ a:visited {
 }
 
 #main-header {
-  /* height: auto; */
-  padding: 5px;
-  display: flex-inline;
+  padding: 10px;
+  /* display: flex-inline; */
   text-align: center;
   font-family: "Hiragino Sans GB";
 }
 
 .job-title {
   font-size: 48px;
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
-
-/* .main-title {
-  font-family: "Hiragino Sans GB";
-  font-size: 65px;
-  color: #333333;
-} */
 
 /* ABOUT STYLING */
 
+#about {
+  /* display: flex-inline; */
+  /* margin: 25px, 0px; */
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
 #about-container {
-  display: flex-inline;
-  margin: 25px;
-  padding: 60px;
+  font-family: "Hiragino Sans GB";
+  /* width: 100%; */
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.about-title {
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+.about-caption {
+  margin-bottom: 4%;
+}
+
+/* PROJECTS STYLING */
+
+#projects {
+  /* display: flex-inline; */
+  /* margin: 25px, 0px; */
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+#projects-container {
+  font-family: "Hiragino Sans GB";
+  /* width: 100%; */
+  padding-right: 35px;
+  padding-left: 35px;
 }
 
 /* FOOTER STYLING */
