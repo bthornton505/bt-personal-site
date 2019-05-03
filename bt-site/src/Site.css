@@ -98,6 +98,12 @@ a:visited {
   padding-left: 35px;
 }
 
+.project-slide {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
 /* FOOTER STYLING */
 
 #contact {
