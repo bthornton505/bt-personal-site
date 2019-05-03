@@ -1,4 +1,5 @@
 /* NAVBAR STYLES */
+
 #bt-navbar {
   display: flex;
   justify-content: center;
@@ -86,6 +87,8 @@ a:visited {
   /* margin: 25px, 0px; */
   padding-top: 2%;
   padding-bottom: 3%;
+  background-color: rgba(0, 102, 0, 0.4)
+  /* opacity: 0.2; */
 }
 
 #projects-container {
@@ -98,26 +101,28 @@ a:visited {
 /* FOOTER STYLING */
 
 #contact {
-  /* display: flex; */
-  /* justify-content: center; */
-  margin: 0;
-  padding: 5px;
-  border-top-style: solid;
-  border-width: 1px;
-  /* background-color: yellow; */
-}
-
-.bt-contact {
-  display: flex;
-  text-align: left;
-}
-
-.bt-location {
-  display: flex;
+  font-family: "Hiragino Sans GB";
+  padding-top: 1%;
+  /* border-top-style: solid;
+  border-width: 1px; */
   text-align: center;
+}
+
+#contact-content {
+  list-style-type: none;
+}
+
+
+.bt-email {
+  /* text-align: center; */
 }
 
 .bt-social-links {
   display: flex;
-  text-align: right;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-icon {
+  color: black;
 }
