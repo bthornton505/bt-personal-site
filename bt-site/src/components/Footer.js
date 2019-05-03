@@ -5,20 +5,22 @@ const Footer = () => {
 
   return(
     <section id="contact">
-      <Container fluid="true">
-        <Row>
-          <Col xs={6} md={4}>
-            <h4>Contact</h4>
-          </Col>
-          <Col xs={6} md={4}>
-            <h4>Location</h4>
-            <p>Denver, CO</p>
-          </Col>
-          <Col xs={6} md={4}>
-            <h4>social media icons</h4>
-          </Col>
-        </Row>
-      </Container>
+      <ul id="contact-content">
+        <li className="bt-email">
+          <h4>thorntonbrenden@gmail.com</h4>
+        </li>
+        <li className="bt-social-links">
+          <a className="social-icon" href="https://www.linkedin.com/in/brenden-thornton/">
+            <i class="fab fa-linkedin-in fa-stack fa-2x"></i>
+          </a>
+          <a className="social-icon" href="https://github.com/bthornton505">
+            <i class="fab fa-github fa-stack fa-2x"></i>
+          </a>
+          <a className="social-icon" href="https://twitter.com/ThorntonBrenden">
+            <i class="fab fa-twitter fa-stack fa-2x"></i>
+          </a>
+        </li>
+      </ul>
     </section>
   )
 }
