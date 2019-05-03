@@ -5,8 +5,10 @@ const Footer = () => {
   return(
     <section id="contact">
       <ul id="contact-content">
-        <li className="bt-email">
-          <h4>thorntonbrenden@gmail.com</h4>
+        <li>
+          <h4>
+            <a className="bt-email" href="mailto:thorntonbrenden@gmail.com">thorntonbrenden@gmail.com</a>
+          </h4>
         </li>
         <li className="bt-social-links">
           <a className="social-icon" href="https://www.linkedin.com/in/brenden-thornton/">
