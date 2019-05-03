@@ -61,7 +61,7 @@ a:visited {
   /* display: flex-inline; */
   /* margin: 25px, 0px; */
   padding-top: 2%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 #about-container {
@@ -83,19 +83,34 @@ a:visited {
 /* PROJECTS STYLING */
 
 #projects {
-  /* display: flex-inline; */
   /* margin: 25px, 0px; */
   padding-top: 2%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   background-color: rgba(0, 102, 0, 0.4)
   /* opacity: 0.2; */
 }
 
 #projects-container {
+  display: flex;
   font-family: "Hiragino Sans GB";
   /* width: 100%; */
   padding-right: 35px;
   padding-left: 35px;
+}
+
+.project-headers {
+  font-family: "Hiragino Sans GB";
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.project-title {
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+.project-caption {
+  margin-bottom: 4%;
 }
 
 .project-slide {
@@ -109,8 +124,6 @@ a:visited {
 #contact {
   font-family: "Hiragino Sans GB";
   padding-top: 1%;
-  /* border-top-style: solid;
-  border-width: 1px; */
   text-align: center;
 }
 
@@ -120,7 +133,9 @@ a:visited {
 
 
 .bt-email {
-  /* text-align: center; */
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
 }
 
 .bt-social-links {
