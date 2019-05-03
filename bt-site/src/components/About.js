@@ -10,7 +10,7 @@ const About = () => {
         <Row>
           <Col>
             <h3 className="about-caption">
-              Proud Father, Loving Husband, Ambitious Full-stack Engineer, or to most Brenden...
+              Proud Father, Loving Husband, Ambitious Full-Stack Engineer. 
             </h3>
             <p>
               After working at the NBA for two years as a Phantom Camera Technician/Production Assistant,
