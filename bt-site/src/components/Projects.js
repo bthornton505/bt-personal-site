@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
+import CardDeck from 'react-bootstrap/CardDeck'
 import Plantify from '../images/plantify_v2.png'
 import TaxDriver from '../images/tax_driver_v2.JPEG'
 import CrazyFish from '../images/crazy_fish_v1.PNG'
@@ -14,7 +15,7 @@ const Projects = () => {
         <h3 className="project-caption">Check out some of my favorite applications I've made!</h3>
       </div>
 
-      <Container id="projects-container" fluid={true}>
+      <CardDeck id="projects-container">
 
         <Row className="project-row">
           <Card className="project-slide" style={{ width: '19rem' }}>
@@ -91,7 +92,7 @@ const Projects = () => {
           </Card>
         </Row>
 
-      </Container>
+      </CardDeck>
     </section>
   )
 }
