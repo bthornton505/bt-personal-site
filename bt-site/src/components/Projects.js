@@ -27,7 +27,7 @@ const Projects = () => {
             </Card.Body>
             <Card.Body>
               <Card.Text className="project-tech">
-                Created with: Ruby on Rails API + React/Redux
+                Created with: Ruby on Rails + React/Redux
               </Card.Text>
             </Card.Body>
             <Card.Footer >
