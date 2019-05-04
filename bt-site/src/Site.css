@@ -120,20 +120,22 @@ a:visited {
 }
 
 .project-slide {
-  background-color: grey;
-  color: white;
-  border-style: solid;
+  background-color: white;
+  color: black;
+  /* border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px; */
 }
 
 .project-card-title {
   font-size: 25px;
+  /* text-align: center; */
   padding-top: 5px;
   padding-left: 15px;
 }
 
 .project-text {
+  /* text-align: center; */
   padding-left: 15px;
   padding-right: 18px;
 }
@@ -141,25 +143,31 @@ a:visited {
 .project-tech {
   font-weight: bold;
   font-size: 14px;
+  /* text-align: center; */
   padding-left: 15px;
   padding-right: 18px;
 }
 
 .card-link {
   text-decoration: none;
-  color: white;
+  color: black;
   padding-top: 40px;
   padding-bottom: 15px;
 }
 
 .card-link-code {
-  padding-right: 101px;
+  padding-right: 92px;
   padding-left: 20px;
 }
 
 .card-link-blog {
   padding-right: 20px;
   padding-left: 102px;
+}
+
+.card-link-heroku {
+  padding-right: 20px;
+  padding-left: 90px;
 }
 
 /* FOOTER STYLING */
