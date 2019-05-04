@@ -13,7 +13,7 @@ const Projects = () => {
     <section id="projects">
       <div className="project-headers">
         <h2 className="project-title">Projects</h2>
-        <h3 className="project-caption">Check out some of my work!</h3>
+        <h3 className="project-caption">Check out some of my favorite applications I've made!</h3>
       </div>
 
       <Container id="projects-container">
@@ -24,19 +24,21 @@ const Projects = () => {
             <Card.Body>
               <Card.Title className="project-card-title">Plantify</Card.Title>
               <Card.Text className="project-text">
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                An app that makes finding, creating and saving your favorite plant-based recipes easy as pie!
               </Card.Text>
             </Card.Body>
             <Card.Body>
               <Card.Text className="project-tech">
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                Created with: Ruby on Rails API + React/Redux
               </Card.Text>
             </Card.Body>
             <Card.Body className="card-link">
-              <Card.Link className="card-link-code" href="#">Code</Card.Link>
-              <Card.Link className="card-link-blog" href="#">Blog</Card.Link>
+              <Card.Link className="card-link-code" href="https://github.com/bthornton505/Plantify">
+                Code
+              </Card.Link>
+              <Card.Link className="card-link-heroku" href="https://plantifyyourlife.herokuapp.com/">
+                Heroku
+              </Card.Link>
             </Card.Body>
           </Card>
         </Row>
@@ -47,19 +49,21 @@ const Projects = () => {
             <Card.Body>
               <Card.Title className="project-card-title">Tax Driver</Card.Title>
               <Card.Text className="project-text">
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                An app that will let Uber/Lyft drivers keep track of their expenses which will help them file their taxes each year.
               </Card.Text>
             </Card.Body>
             <Card.Body>
               <Card.Text className="project-tech">
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                Created with: Ruby on Rails + JavaScript/Jquery
               </Card.Text>
             </Card.Body>
             <Card.Body className="card-link">
-              <Card.Link className="card-link-code" href="#">Code</Card.Link>
-              <Card.Link className="card-link-blog" href="#">Blog</Card.Link>
+              <Card.Link className="card-link-code" href="https://github.com/bthornton505/uber-lyft-expense-app">
+                Code
+              </Card.Link>
+              <Card.Link className="card-link-blog" href="http://brendenthornton.com/i_thought_ajax_was_a_cleaning_product">
+                Blog
+              </Card.Link>
             </Card.Body>
           </Card>
         </Row>
@@ -70,19 +74,21 @@ const Projects = () => {
             <Card.Body>
               <Card.Title className="project-card-title">Crazy Fish</Card.Title>
               <Card.Text className="project-text">
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                An application that will help fishtank enthusiasts keep track of the fish they have in their tanks.
               </Card.Text>
             </Card.Body>
             <Card.Body>
               <Card.Text className="project-tech">
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                Created with: Ruby + Sinatra
               </Card.Text>
             </Card.Body>
             <Card.Body className="card-link">
-              <Card.Link className="card-link-code" href="#">Code</Card.Link>
-              <Card.Link className="card-link-blog" href="#">Blog</Card.Link>
+              <Card.Link className="card-link-code" href="https://github.com/bthornton505/Fish-Management-System">
+                Code
+              </Card.Link>
+              <Card.Link className="card-link-blog" href="http://brendenthornton.com/crazyfish_sinatra_app">
+                Blog
+              </Card.Link>
             </Card.Body>
           </Card>
         </Row>
