@@ -5,12 +5,12 @@ const About = () => {
 
   return(
     <section id="about">
-      <Container id="about-container">
-        <h2 className="about-title">About Me</h2>
+      <div id="about-container">
+        <p className="about-title">About Me</p>
         <Row>
           <Col>
             <h3 className="about-caption">
-              Proud Father, Loving Husband, Ambitious Full-Stack Engineer. 
+              Proud Father, Loving Husband, Ambitious Full-Stack Engineer.
             </h3>
             <p>
               After working at the NBA for two years as a Phantom Camera Technician/Production Assistant,
@@ -35,7 +35,7 @@ const About = () => {
           </Col>
         </Row>
 
-      </Container>
+      </div>
     </section>
   )
 }
