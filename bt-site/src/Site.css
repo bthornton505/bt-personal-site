@@ -60,7 +60,7 @@ a:visited {
 #about {
   /* display: flex-inline; */
   /* margin: 25px, 0px; */
-  padding-top: 2%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
@@ -84,7 +84,7 @@ a:visited {
 
 #projects {
   /* margin: 25px, 0px; */
-  padding-top: 2%;
+  padding-top: 5%;
   padding-bottom: 5%;
   background-color: rgba(0, 102, 0, 0.4)
   /* opacity: 0.2; */
@@ -97,6 +97,11 @@ a:visited {
   /* width: 100%; */
   padding-right: 35px;
   padding-left: 35px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
 }
 
 .project-headers {
@@ -122,6 +127,8 @@ a:visited {
 .project-slide {
   background-color: white;
   color: black;
+  /* width: 250px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* border-style: solid;
   border-color: black;
   border-width: 1px; */
@@ -151,8 +158,8 @@ a:visited {
 .card-link {
   text-decoration: none;
   color: black;
-  padding-top: 40px;
-  padding-bottom: 15px;
+  /* padding-top: 40px;
+  padding-bottom: 15px; */
 }
 
 .card-link-code {
@@ -174,7 +181,8 @@ a:visited {
 
 #contact {
   font-family: "Hiragino Sans GB";
-  padding-top: 1%;
+  padding-top: 4%;
+  padding-bottom: 2%;
   text-align: center;
 }
 
