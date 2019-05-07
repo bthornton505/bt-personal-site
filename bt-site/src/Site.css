@@ -16,14 +16,16 @@
 }
 
 .navbar-links {
-  text-decoration: none;
+  /* text-decoration: none; */
   font-family: "Hiragino Sans GB";
+  padding-right: 15px;
   font-size: 20px;
   color: black;
 }
 
 a:hover {
   color: #006600;
+  text-decoration: none;
 }
 
 a:visited {
@@ -61,14 +63,14 @@ a:visited {
   /* display: flex-inline; */
   /* margin: 25px, 0px; */
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
 }
 
 #about-container {
   font-family: "Hiragino Sans GB";
   /* width: 100%; */
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 45px;
+  padding-left: 45px;
 }
 
 .about-title {
@@ -84,8 +86,8 @@ a:visited {
 
 #projects {
   /* margin: 25px, 0px; */
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 8%;
+  padding-bottom: 8%;
   background-color: rgba(0, 102, 0, 0.4)
   /* opacity: 0.2; */
 }
@@ -106,8 +108,8 @@ a:visited {
 
 .project-headers {
   font-family: "Hiragino Sans GB";
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 45px;
+  padding-left: 45px;
 }
 
 .project-title {
