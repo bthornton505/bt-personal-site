@@ -19,7 +19,7 @@ const Projects = () => {
 
         <Row className="project-row">
           <Card className="project-slide" style={{ width: '19rem' }}>
-            <Card.Img className="project-image"variant="top" src={Plantify} />
+            <Card.Img variant="top" src={Plantify} />
             <Card.Body>
               <Card.Title className="project-card-title">Plantify</Card.Title>
               <Card.Text className="project-text">
