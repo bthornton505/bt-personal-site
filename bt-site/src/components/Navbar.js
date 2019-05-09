@@ -11,7 +11,7 @@ const Header = () => {
             <a className="navbar-links" href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aedc78e2c-0fac-4dd8-94a4-706b2b6ad54f">
               Resume
             </a>
-            <a className="navbar-links" href="http://brendenthornton.com/">
+            <a className="navbar-links" href="https://medium.com/@thorntonbrenden">
               Blog
             </a>
           </div>
