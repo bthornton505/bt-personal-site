@@ -92,12 +92,12 @@ a:visited {
 }
 
 #projects-container {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  font-family: "Hiragino Sans GB"; */
+  /* font-family: "Hiragino Sans GB"; */
   /* width: 100%; */
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 65px;
+  padding-left: 68px;
 }
 
 .project-image {
@@ -117,12 +117,14 @@ a:visited {
 }
 
 .project-caption {
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .project-row {
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+
 }
 
 .project-slide {
