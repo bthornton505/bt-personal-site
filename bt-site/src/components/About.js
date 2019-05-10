@@ -14,8 +14,8 @@ const About = () => {
             </h3>
             <p>
               In January of 2018 I found myself at a crossroads. After working at
-              the NBA for two years as a Phantom Camera Technician/Production Assistant,
-              I no longer felt I was growing as a young professional. 
+              the NBA for two years as a Camera Technician/Production Assistant,
+              I no longer felt I was growing as a young professional.
             </p>
             <p>
               This pushed me to explore new opportunities which led me to discover
