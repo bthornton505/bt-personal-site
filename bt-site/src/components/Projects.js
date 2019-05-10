@@ -15,9 +15,10 @@ const Projects = () => {
         <h3 className="project-caption">Check out some of my work!</h3>
       </div>
 
-      <Container id="projects-container">
-        <CardDeck>
+      <Container>
+        <CardDeck id="projects-container">
 
+          <Row className="project-row">
             <Card className="project-slide" style={{ width: '17rem' }}>
               <Card.Img variant="top" src={Plantify} />
               <Card.Body>
@@ -40,7 +41,9 @@ const Projects = () => {
                 </Card.Link>
               </Card.Footer>
             </Card>
+          </Row>
 
+          <Row className="project-row">
             <Card className="project-slide" style={{ width: '17rem' }}>
               <Card.Img variant="top" src={TaxDriver} />
               <Card.Body>
@@ -63,7 +66,9 @@ const Projects = () => {
                 </Card.Link>
               </Card.Footer>
             </Card>
+          </Row>
 
+          <Row className="project-row">
             <Card className="project-slide" style={{ width: '17rem' }}>
               <Card.Img variant="top" src={CrazyFish} />
               <Card.Body>
@@ -86,6 +91,7 @@ const Projects = () => {
                 </Card.Link>
               </Card.Footer>
             </Card>
+          </Row>
 
         </CardDeck>
       </Container>
