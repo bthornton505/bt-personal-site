@@ -8,7 +8,7 @@ const Header = () => {
       <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
           <div class="bg-white p-4">
-            <a className="navbar-links" href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aedc78e2c-0fac-4dd8-94a4-706b2b6ad54f">
+            <a className="navbar-links" href="https://drive.google.com/file/d/1qlUIAVyZoPyd6DKgkKW6vs7d60CpqBqs/view?usp=sharing">
               Resume
             </a>
             <a className="navbar-links" href="https://medium.com/@thorntonbrenden">
